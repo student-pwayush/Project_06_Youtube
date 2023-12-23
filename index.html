@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Youtube Clone</title>
+</head>
+<body class="bg-gray-100 font-Roboto antialised">
+    <header class="bg-white divide-y ml-16 border-b fixed inset-x-0">
+        <div class="flex justify-between items-center h-14 mx-4">
+            <div class="-ml-1">
+                <img src="yt-logo.png" alt="youtube logo" class="w-20 h-12">
+            </div>
+            <div class="flex items-center justify-center flex-grow">
+                <input type="text" placeholder="Search" class="border rounded-full rounded-r-lg border-gray-400 h-8  px-1 py-2 focus:outline-none focus:border-blue-600 w-3/5">
+                <button class="bg-gray-200 flex items-center  justify-center h-8 w-16 rounded-full rounded-s-lg border border-gray-400 border-l-0 hover:bg-gray-300">
+                    <i class="material-icons">search</i>
+                </button><img src="voice-search.png" class="w-5 ml-3" alt="search-mike"/>
+            </div>
+            <div class="flex items-center justify-center space-x-4">
+                <button class="flex items-center justify-center">
+                    <i class="material-icons">video_call</i>
+                </button>
+                <button class="flex items-center justify-center">
+                    <i class="material-icons">apps</i>
+                </button>
+                <button class="flex items-center justify-center">
+                    <i class="material-icons">notifications</i>
+                </button>
+                <button>
+                    <div class="h-8 w-8 rounded-full bg-blue-300 overflow-hidden object-cover">
+                        <img class="object-cover" src="channels4_profile (6).jpg">
+                    </div>
+                </button>
+            </div>
+        </div>
+        <div class="flex items-center px-2 py-3 px-4 space-x-3 select-none">
+            <span class="text-sm bg-gray-700 border border-gray-800 rounded-full px-2 py-1 text-gray-200 shadow-inner">All Recommendations</span>
+            <span class="text-sm bg-gray-200 border border-gray-300 rounded-full px-2 py-1 text-gray-800 shadow-inner">Tailwindcss</span>
+            <span class="text-sm bg-gray-200 border border-gray-300 rounded-full px-2 py-1 text-gray-800 shadow-inner">Javascript</span>
+            <span class="text-sm bg-gray-200 border border-gray-300 rounded-full px-2 py-1 text-gray-800 shadow-inner">Wrestling</span>
+            <span class="text-sm bg-gray-200 border border-gray-300 rounded-full px-2 py-1 text-gray-800 shadow-inner">Python</span>
+            <span class="text-sm bg-gray-200 border border-gray-300 rounded-full px-2 py-1 text-gray-800 shadow-inner">Coding</span>
+            <span class="text-sm bg-gray-200 border border-gray-300 rounded-full px-2 py-1 text-gray-800 shadow-inner">News</span>
+            <span class="text-sm bg-gray-200 border border-gray-300 rounded-full px-2 py-1 text-gray-800 shadow-inner">CSS</span>
+            <span class="text-sm bg-gray-200 border border-gray-300 rounded-full px-2 py-1 text-gray-800 shadow-inner">Computer Science</span>
+            <span class="text-sm bg-gray-200 border border-gray-300 rounded-full px-2 py-1 text-gray-800 shadow-inner">Comedy</span>
+                
+        </div>
+    </header>
+    <aside class="fixed top-0 w-18 h-screen bg-white flex items-center flex-col pt-4 text-gray-700">
+        <button><i class="material-icons">menu</i>
+        </button>
+        <div class="mt-6 w-full">
+            <button class="flex items-center justify-center flex-col hover:bg-gray-200 w-full py-4 text-red-600">
+                <i class="material-icons small">home</i>
+                <span class="text-xs">Home</span>
+            </button>
+            <button class="flex items-center justify-center flex-col hover:bg-gray-200 w-full py-4">
+                <i class="material-icons small">local_fire_department</i>
+                <span class="text-xs">Trending</span>
+            </button>
+            <button class="flex items-center justify-center flex-col hover:bg-gray-200 w-full py-4">
+                <i class="material-icons small">local_fire_department</i>
+                <span class="text-xs">Trending</span>
+            </button>
+            <button class="flex items-center justify-center flex-col hover:bg-gray-200 w-full py-4">
+                <i class="material-icons small">subscriptions</i>
+                <span class="text-xs">Subscriptions</span>
+            </button>
+            <button class="flex items-center justify-center flex-col hover:bg-gray-200 w-full py-4">
+                <i class="material-icons small">video_library</i>
+                <span class="text-xs">Library</span>
+            </button>
+        </div>
+    </aside>
+    <main class="ml-24 pt-32">
+        <div class="border-b-4 border-gray-300 border-opacity-75 pb-12">
+            <div class="bg-cover h-112">
+                <img src="banner.png" alt="banner">
+              </div>
+            <h3 class="text-xl font-bold">Recommended</h3>
+            <div class="mt-4 grid grid-cols-4 row-gap-10 col-gap-2">
+                
+                <div class="w-68 p-2">
+                    <div class="h-40 w-full bg-gray-700 overflow-hidden">
+                        <img src="0.jpg">
+                    </div>
+                    <div class="flex mt-2">
+                        <div class="h-10 w-10 bg-blue-300 rounded-full flex-shrink-0 overflow-hidden" >
+                            <img src="channels4_profile (6).jpg">
+                        </div>
+                        <div class="ml-2">
+                            <div class="text-sm font-bold">Physics Wallah best learning.</div>
+                            <div class="text-xs text-gray-600">
+                                <p>#PW</p>
+                                <p>9 hours ago &middot; 87k views</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-68 p-2">
+                    <div class="h-40 w-full bg-gray-700 overflow-hidden">
+                        <img src="mqdefault_6s (1).webp" alt="img" class="w-94 h-40">
+                    </div>
+                    <div class="flex mt-2">
+                        <div class="h-10 w-10 bg-blue-300 rounded-full flex-shrink-0 overflow-hidden">
+                            <img src="channels4_profile (9).jpg"
+                                alt="">
+                        </div>
+                        <div class="ml-2">
+                            <div class="text-sm font-bold">हिंदी Oggy and the Cockroaches 🎄 क्रिसमस तिलचट्टे Hindi Cartoons for Kids</div>
+                            <div class="text-xs text-gray-600">
+                                <p><strong>Oggy Hindi - हिन्दी 
+                                </strong></p>
+                                <p>11M subscribers &middot; 877k views</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-68 p-2">
+                    <div class="h-40 w-full bg-gray-700 overflow-hidden">
+                        <img src="hq720 (1).webp" alt="img" class="w-94 h-40">
+                    </div>
+                    <div class="flex mt-2">
+                        <div class="h-10 w-10 bg-blue-300 rounded-full flex-shrink-0 overflow-hidden">
+                            <img src="unnamed.jpg">
+                        </div>
+                        <div class="ml-2">
+                            <div class="text-sm font-bold">Jai Shree Ram | Hansraj Raghuwanshi | Ayodhya Ram Mandir Song 2024 | Latest Ram Bhajan Songs</div>
+                            <div class="text-xs text-gray-600">
+                                <p><strong>Hansraj Raghuwanshi</strong></p>
+                                <p>06-Days ago &middot; 887k views</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-68 p-2">
+                    <div class="h-40 w-full bg-gray-700 overflow-hidden">
+                        <img src="hqdefault.jpg" alt="img" class="w-94 h-40">
+                    </div>
+                    <div class="flex mt-2">
+                        <div class="h-10 w-10 bg-blue-300 rounded-full flex-shrink-0 overflow-hidden">
+                            <img src="channels4_profile (2).jpg"
+                                alt="">
+                        </div>
+                        <div class="ml-2">
+                            <div class="text-sm font-bold">मुझे रास आ गया है तेरे दर पे सर झुकाना !! सुपरहिट भजन !! खतौली !!</div>
+                            <div class="text-xs text-gray-600">
+                                <p><strong>#VrajBhav</strong></p>
+                                <p>1.79M subscribers &middot; 107k views</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-68 p-2">
+                    <div class="h-40 w-full bg-gray-700 overflow-hidden">
+                        <img src="0 (1).jpg"
+                            alt="">
+                    </div>
+                    <div class="flex mt-2">
+                        <div class="h-10 w-10 bg-blue-300 rounded-full flex-shrink-0 overflow-hidden">
+                            <img src="channels4_profile.jpg"
+                                alt="">
+                        </div>
+                        <div class="ml-2">
+                            <div class="text-sm font-bold">GAGAN KOKRI : Blessings Of Baapu Returns (Official Teaser) ft.Yograj Singh | New Punjabi Songs 2023.</div>
+                            <div class="text-xs text-gray-600">
+                                <p><strong>White Hill Music</strong></p>
+                                <p>464K subscribers
+                                    &middot; 1k views</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-68 p-2">
+                    <div class="h-40 w-full bg-gray-700 overflow-hidden">
+                        <img src="hq720 (4).webp" alt="img" class="w-94 h-40">
+                    </div>
+                    <div class="flex mt-2">
+                        <div class="h-10 w-10 bg-blue-300 rounded-full flex-shrink-0 overflow-hidden">
+                            <img src="channels4_profile (8).jpg"
+                                alt="">
+                        </div>
+                        <div class="ml-2">
+                            <div class="text-sm font-bold">B Praak जी के नये भजन ने सबको झूमने पर मजबूर कर दिया - जरा बंसी बजा मोहना हम रास रचाएंगे | बृज भाव.</div>
+                            <div class="text-xs text-gray-600">
+                                <p><strong>#bpraak</strong></p>
+                                <p>328K videos• &middot; 151K channels</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-68 p-2">
+                    <div class="h-40 w-full bg-gray-700 overflow-hidden">
+                        <img src="hq720 (9).webp" alt="img" class="w-94 h-40">
+                    </div>
+                    <div class="flex mt-2">
+                        <div class="h-10 w-10 bg-blue-300 rounded-full flex-shrink-0 overflow-hidden">
+                            <img src="channels4_profile (6).jpg"
+                                alt="">
+                        </div>
+                        <div class="ml-2">
+                            <div class="text-sm font-bold">Code Conquest - Jr. High Hackathon Division</div>
+                            <div class="text-xs text-gray-600">
+                                <p><strong> kidOYO</strong></p>
+                                <p>9 hours ago &middot; 87k views</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-68 p-2">
+                    <div class="h-40 w-full bg-gray-700 overflow-hidden">
+                        <img src="mqdefault_6s (2).webp" alt="img" class="w-94 h-40">
+                    </div>
+                    <div class="flex mt-2">
+                        <div class="h-10 w-10 bg-blue-300 rounded-full flex-shrink-0 overflow-hidden">
+                            <img src="channels4_profile (3).jpg"
+                                alt="">
+                        </div>
+                        <div class="ml-2">
+                            <div class="text-sm font-bold">T-Series</div>
+                            <div class="text-xs text-gray-600">
+                                <p><strong>@tseries</strong></p>
+                                <p>255M subscribers‧ &middot; 20K videos</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="my-4">
+            <h3 class="text-xl font-bold">Latest Youtube posts</h3>
+            <div class="mt-2 grid grid-cols-3 gap-6">
+                <div class="w-92 bg-white flex flex-col px-3 py-2 border border-gray-400">
+                    <div class="flex items-center">
+                        <div class="w-6 h-6 bg-blue-300 rounded-full overflow-hidden">
+                            <img src="channels4_profile (6).jpg">
+                        </div>
+                        <div class="text-sm text-gray-600 ml-2">
+                            <p>#PW 6 hours ago</p>
+                        </div>
+                    </div>
+                    <div class="flex mt-3">
+                        <p class="">
+                            || Best online learning videos ||
+                        </p>
+                        <div class="w-23 h-16 bg-gray-600 flex-shrink-0 overflow-hidden" class="object-cover">
+                            <img src="channels4_profile (6).jpg"
+                                alt="" class="object-cover h-full">
+                        </div>
+                    </div>
+
+                    <div class="flex items-center justify-between text-sm text-gray-600 mt-3">
+                        <div class="flex items-center">
+                            <button><i class="material-icons small">thumb_up</i></button>
+                            <div class="ml-1">179</div>
+                            <button class="ml-2"><i class="material-icons small">thumb_down</i></button>
+                        </div>
+                        <div class="flex items-start">
+                            <button><i class="material-icons small">comment</i></button>
+                            <div class="ml-1">24</div>
+                            <button class="ml-3"><i class="material-icons small">
+                                more_vert
+                            </i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-94 bg-white flex flex-col px-3 py-2 border border-gray-400">
+                    <div class="flex items-center">
+                        <div class="w-6 h-6 bg-blue-300 rounded-full overflow-hidden">
+                            <img src="channels4_profile.jpg"
+                                alt="">
+                        </div>
+                        <div class="text-sm text-gray-600 ml-2">
+                            <p>#White Hills 6 hours ago</p>
+                        </div>
+                    </div>
+                    <div class="flex mt-3">
+                        <p class="">
+                            (Official Teaser) ft.Yograj Singh | New Punjabi Songs 2023..
+                        </p>
+                        <div class="w-32 h-32 bg-gray-600 flex-shrink-0 overflow-hidden" class="object-cover">
+                            <img src="channels4_profile.jpg"
+                                alt="" class="object-cover h-full">
+                        </div>
+                    </div>
+                
+                    <div class="flex items-center justify-between text-sm text-gray-600 mt-3">
+                        <div class="flex items-center">
+                            <button><i class="material-icons small">thumb_up</i></button>
+                            <div class="ml-1">179</div>
+                            <button class="ml-2"><i class="material-icons small">thumb_down</i></button>
+                        </div>
+                        <div class="flex items-start">
+                            <button><i class="material-icons small">comment</i></button>
+                            <div class="ml-1">24</div>
+                            <button class="ml-3"><i class="material-icons small">
+                                    more_vert
+                                </i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-94 bg-white flex flex-col px-3 py-2 border border-gray-400">
+                    <div class="flex items-center">
+                        <div class="w-6 h-6 bg-blue-300 rounded-full overflow-hidden">
+                            <img src="channels4_profile (2).jpg"
+                                alt="">
+                        </div>
+                        <div class="text-sm text-gray-600 ml-2">
+                            <p>Hansraj Raghuwanshi</p>
+                        </div>
+                    </div>
+                    <div class="flex mt-3">
+                        <p class="">
+                            || Mera Bhola Hai Bhandari ||.
+                        </p>
+                        <div class="w-32 h-32 bg-gray-600 flex-shrink-0 overflow-hidden" class="object-cover">
+                            <img src="unnamed.jpg"
+                                alt="" class="object-cover h-full">
+                        </div>
+                    </div>
+                
+                    <div class="flex items-center justify-between text-sm text-gray-600 mt-3">
+                        <div class="flex items-center">
+                            <button><i class="material-icons small">thumb_up</i></button>
+                            <div class="ml-1">179</div>
+                            <button class="ml-2"><i class="material-icons small">thumb_down</i></button>
+                        </div>
+                        <div class="flex items-start">
+                            <button><i class="material-icons small">comment</i></button>
+                            <div class="ml-1">24</div>
+                            <button class="ml-3"><i class="material-icons small">
+                                    more_vert
+                                </i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </main>
+</body>
+</html>
